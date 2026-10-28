@@ -2,7 +2,7 @@
   "name": "smart-canteen-ai",
   "version": "1.0.0",
   "private": true,
-  "description": "Умная столовая — школьный хакатон-прототип с ИИ-консультантом на OpenRouter",
+  "description": "Умная столовая — школьный прототип с ИИ-консультантом на OpenRouter",
   "scripts": {
     "dev": "node server/dev.js",
     "check": "node --check api/ai.js && node --check lib/openrouter-config.js && node --check server/dev.js"
