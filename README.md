@@ -4,6 +4,8 @@
 
 **Стек:** Vanilla HTML / CSS / JavaScript, Node.js serverless function для Vercel. Без React, CDN и сборщика.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/useterm/smart-canteen-ai)
+
 ## Что внутри
 
 - **Опрос учеников** — оценки «Люблю / Нормально / Не доедаю», live-аналитика, сохранение в `localStorage`.
