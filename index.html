@@ -6305,6 +6305,8 @@
 
   function prettyModelLabel(model) {
     if (!model) return "OpenRouter";
+    if (/nemotron-3-ultra/i.test(model)) return "Nemotron 3 Ultra · free";
+    if (/nemotron/i.test(model)) return "Nemotron · free";
     if (/gemma-4/i.test(model)) return "Gemma 4 · free";
     if (/gemma/i.test(model)) return "Gemma · OpenRouter";
     return "OpenRouter";

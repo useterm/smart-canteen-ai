@@ -44,7 +44,7 @@ npm run check
    | Name | Value |
    |---|---|
    | `OPENROUTER_API_KEY` | новый ключ OpenRouter |
-   | `OPENROUTER_MODEL` | `google/gemma-4-26b-a4b-it:free` |
+   | `OPENROUTER_MODEL` | `nvidia/nemotron-3-ultra-550b-a55b:free` |
    | `SITE_URL` | URL проекта на Vercel |
    | `OPENROUTER_APP_NAME` | `Smart Canteen AI` |
 
@@ -60,7 +60,7 @@ npm run check
 
 ```
 OPENROUTER_API_KEY=sk-or-v1-...
-OPENROUTER_MODEL=google/gemma-4-26b-a4b-it:free
+OPENROUTER_MODEL=nvidia/nemotron-3-ultra-550b-a55b:free
 SITE_URL=https://your-project.vercel.app
 OPENROUTER_APP_NAME=Smart Canteen AI
 ```
